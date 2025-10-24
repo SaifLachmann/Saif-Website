@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.gradient-background {
+  /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
+  background: linear-gradient(300deg, #b3fff1, #e4f9f5, #ccfff6, #57dfc6);
+
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+    color: #212529;
+    text-align: center;
+}
+.MiddleContainer{
+    /* background-color: rgb(255, 252, 249); */
+}
+
+ hr {
+  border: dotted #5ef7db 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.WelcomeText{
+  color: #66bfbf;
+}
+
+#Title {
+font-family: "Pacifico", system-ui;
+font-size: 3rem;
+    color: #66bfbf;
+}
+
+.programmerText{
+  
+    text-decoration: underline;
+}
+
+.SaifName{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+
+}
